@@ -81,7 +81,7 @@ def bard_plan(payload):
     if not key:
         return None
 
-    model = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+    model = os.getenv("GEMINI_MODEL", "gemini-flash-latest")
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
     prompt = (
         "Return one JSON object only.\n"
