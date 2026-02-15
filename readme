@@ -1,0 +1,19 @@
+The Silent Poet
+
+The Silent Poet writes in dust,
+For stone will break and iron rust.
+Truth lies not in static form,
+But in the heart of passing storm.
+
+沈黙の詩人は、塵（ちり）に書く。
+石は砕け、鉄（くろがね）は錆びるゆえ。
+真実（まこと）は、留まる形にあらず。
+過ぎ去る嵐の、その只中に。
+
+
+Setup
+1. Copy `.env.example` to `.env`
+2. Set `GEMINI_API_KEY` in `.env`
+3. (Optional) Set `GEMINI_MODEL` in `.env`
+4. Run:
+   python silent_poet.py "Write a poem about silence"
